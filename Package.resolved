@@ -1,0 +1,16 @@
+{
+  "object": {
+    "pins": [
+      {
+        "package": "AppleEvents",
+        "repositoryURL": "https://github.com/emorydunn/AppleEvents.git",
+        "state": {
+          "branch": "master",
+          "revision": "52c40ebad226dc470332a72e69a154bf666a2f3a",
+          "version": null
+        }
+      }
+    ]
+  },
+  "version": 1
+}

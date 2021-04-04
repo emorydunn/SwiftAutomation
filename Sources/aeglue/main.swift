@@ -16,7 +16,8 @@
 
 import Foundation
 import SwiftAutomation
-
+import AppleEvents
+import CoreServices
 
 
 let optionsWithArguments = Set<Character>("enopst") // this MUST contain all options that also require arguments (used to separate option key from value if not explicitly separated by whitespace, e.g. '-pABC' -> '-p ABC')
