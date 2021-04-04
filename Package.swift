@@ -21,16 +21,15 @@ let package = Package(
         // Targets can depend on other targets in this package, and on products in packages this package depends on.
         .target(
             name: "SwiftAutomation",
-            dependencies: ["AppleEvents"]),
+            dependencies: ["AppleEvents"]
+        ),
         .target(
             name: "MacOSGlues",
             dependencies: ["SwiftAutomation"]),
         .target(
             name: "aeglue",
             dependencies: [
-                "AppleEvents",
-                "SwiftAutomation",
-                .product(name: "AEMShim", package: "AppleEvents")
+                "SwiftAutomation"
             ]),
         .target(
             name: "test",
